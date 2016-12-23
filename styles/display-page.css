@@ -1,0 +1,42 @@
+.wholeBox{
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:100px;
+	width:800px;
+	height:500px;
+	background-color:blue;
+	font-size:0;
+}
+
+.inner{
+	display:inline-block;
+	width:50%;
+	height:200px;
+}
+
+.in{
+	display:inline-block;
+	width:33.33%;
+	height:300px;
+}
+
+.innerOne {
+	background-color:green;
+	border:1px solid black;
+}
+.innerTwo {
+	background-color:blue;
+	border:1px solid black;
+}
+.innerThree {
+	background-color:grey;
+	border:1px solid black;
+}
+.innerFour {
+	background-color:black;
+	border:1px solid black;
+}
+.innerFive {
+	background-color:orange;
+	border:1px solid black;
+}
