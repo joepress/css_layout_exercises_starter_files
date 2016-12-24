@@ -1,0 +1,98 @@
+/* Nav section CSS*/
+nav{
+	background-color:#d1d1e0;
+	height:60px;
+	position:fixed;
+	width:100%;
+	left:0;
+	top:0;
+}
+.logo{
+	font-family:arial;
+	font-size:25px;
+	position:absolute;
+  left:15px;
+	top:15px;
+}
+.container{
+	position:absolute;
+	right:15px;
+	top:10px;
+	font-size:25px;
+	}
+.account{
+	margin-left:10px;
+}
+
+/* Input section CSS*/
+
+.inputSection{
+	padding-top:50px;
+	position:relative;
+	top:70px;
+	left:150px;
+}
+input[type=text] {
+	width:600px;
+	height:35px;
+	font-size:18px;
+	border:1px solid grey;
+	border-radius:3px;
+}
+.magnifying-glass{
+	width:32px;
+	position:relative;
+	top:11px;
+	border:1px solid grey;
+	border-radius:3px;
+	margin-left:1px;
+}
+
+/* Previous and Next button section CSS*/
+
+.pageContainer  p, a {
+	display:inline-block;
+	font-size:25px;
+	color:black;
+	margin-top:10px;
+	
+}
+.pageContainer{
+	height:50px;
+	border:1px solid grey;
+	width:400px;
+	margin-top:50px;
+	border-radius:3px;
+	padding-left:25px;
+
+}
+.prevButton{
+	margin-right:20px;
+	margin-left:15px;
+	
+}
+
+.nextButton{
+	margin-left:20px;
+}
+
+/* Job results section CSS*/
+
+.jobResults{
+	position:relative;
+	top:150px;
+	left:110px;
+}
+.jobResults li span {
+	font-size:25px;
+	color:blue;
+	margin-left:10px;
+	margin-right:10px;
+}
+.jobResults li {
+	list-style:none;
+	font-size:20px;
+	color:grey;
+	margin-bottom:15px;
+}
+
