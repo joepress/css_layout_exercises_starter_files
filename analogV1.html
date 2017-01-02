@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="C:\Users\jmpre\Desktop\Projects\css_layout_exercises_starter_files\styles\analogV1.css">
+</head>
+<body>
+	<header class="logoHeader">
+		<img src="C:\Users\jmpre\Desktop\Projects\css_layout_exercises_starter_files\images\logo.png" class="logoImg">
+	</header>
+	<form class="analogForm" action="/signup/" method="post">
+		<fieldset class="fieldset">
+			<h1 class="signH1">Sign up</h1>
+			
+			<label for="email">Email</label>
+				<input placeholder="foo@bar.com" type="email" name="email" id="email" required/>
+				
+			<label for="password">Password</label>
+				<input placeholder="password" type="password" name="password" id="password" required/>								
+		</fieldset>
+		<button type="submit" class="signButton">Sign up</button>
+		<br>
+		<a href="/forgot-password/new" class="forgotP">Forgot password?</a>
+	</form>	
+	<p class="account">Already have an account?<a href="/login">Log in</a></p>
+</body>
+</html>

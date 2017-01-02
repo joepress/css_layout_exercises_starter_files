@@ -1,0 +1,71 @@
+body{
+	background:rgb(108, 176, 254);
+}
+/* logo section*/
+.logoHeader {
+	width:400px;
+	position:relative;
+	left:840px;
+	padding:40px;
+}
+.logoImg{
+	height:35px;
+}
+
+/* creating form section*/
+
+.analogForm{
+	width:400px;
+	height:420px;
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	border-radius:2px;
+	padding:40px;
+}
+
+/* styling everything inside the form */
+.signH1{
+	padding-left: 130px;
+	padding-bottom:30px;
+}
+
+.analogForm label {
+	display:block;
+	margin-bottom:15px;
+}
+.analogForm input {
+	width:320px;
+	border:2px solid grey;
+	border-radius:2px;
+	padding:15px;
+	font-size:20px;
+	margin-bottom:15px;
+}
+
+.signButton{
+	background-color:#4CAF50;
+	width:350px;
+	padding:15px;
+	margin-left:15px;
+	margin-bottom:25px;
+	border:none;
+	color:white;
+	font-size:20px;
+}
+.forgotP{
+	margin-left:140px;
+	color:grey;
+}
+
+/* styling for the existing members login */
+.account a,p {
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+}
+.account{
+	width:400px;
+	position:relative;
+	left:840px;
+}
